@@ -1,0 +1,26 @@
+{
+  "name": "pm2_electron",
+  "version": "1.0.0",
+  "description": "pm2 daemon spawner",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/ca333/pm2_electron",
+  "keywords": [
+    "Electron",
+    "pm2",
+    "node"
+  ],
+  "author": "ca333",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "electron": "^1.4.1",
+    "fix-path": "^2.1.0",
+    "pm2": "^2.2.3"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.5.5"
+  }
+}

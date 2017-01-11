@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>pm2_electron_app</title>
+  </head>
+  <body>
+hello world!
+
+nodeV: <script>document.write(process.versions.node)</script>,
+ElectronV: <script>document.write(process.versions.electron)</script>.
+  </body>
+
+  <script>
+      require('./renderer.js')
+  </script>
+</html>
